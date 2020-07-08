@@ -18,6 +18,7 @@ The project is not finished, a lot needs to be improved in it.
 * CSS3
 * Bootstrap 4
 * Font Awesome
+* Photoshop CC
 
 ## Demo
 https://shkvoroff.github.io/CompanyWebsite-StoneSurfaces/index_en.html
