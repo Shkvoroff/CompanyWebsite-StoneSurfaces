@@ -17,7 +17,7 @@ The project is not finished, a lot needs to be improved in it.
 * HTML5
 * CSS3
 * Bootstrap 4
-* FontAwesome
+* Font Awesome
 
 ## Demo
 https://shkvoroff.github.io/CompanyWebsite-StoneSurfaces/index_en.html
@@ -33,7 +33,7 @@ To-Do list:
 * Fix problems and optimize the site following the feedback
 
 ## Status
-Project is: in progress
+Project is: In Progress
 
 ## Contact
-Created by [@shkvoroff](https://www.linkedin.com/in/shkvoroff/) - feel free to contact me!
+Created by [@shkvoroff](https://www.linkedin.com/in/shkvoroff/) - Feel free to contact me!
