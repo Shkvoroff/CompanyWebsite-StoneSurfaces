@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Arvestustoo</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<!-- Шапка сайта -->
+  <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+        <a href="index.html" class="navbar-brad"><img src="img/logo.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item ">
+              <a href="index.html" class="nav-link">Koduleht</a>
+            </li>
+            <li class="nav-item">
+              <a href="materjalid.html" class="nav-link">Materjalid ja tooted</a>
+            </li>
+            <li class="nav-item">
+              <a href="firmast.html" class="nav-link">Meie firmast</a>
+            </li>
+            <li class="nav-item">
+              <a href="kontakt.html" class="nav-link">Kontakt</a>
+            </li>
+            <li class="nav-item">
+              <a href="pakkumine.html" class="nav-link">KÜSI HINNAPAKKUMIST</a>
+            </li>
+            <li-lang class="nav-item">
+              <a href="pakkumine_en.html" class="nav-link">EN</a>
+            </li-lang>
+            <li-lang class="nav-item">
+              <a href="pakkumine_ru.html" class="nav-link">RU</a>
+            </li-lang>
+          </ul>
+        </div>
+    </div>
+  </nav>
+  <!-- Блок с фиксированным изображением -->
+    <figure>
+      <div class="fixed_3-wrap">
+        <div id="fixed_3">
+        </div>
+      </div>
+    </figure>
+ <!-- Блок с ценовым предложением в .pdf формате -->
+      <div class="container-fluid padding">
+        <div class="row text-center padding">
+          <div class="col-12">
+    	    <br>
+    		<br>
+            <h1 class="display-5 text-center">Hinnakiri</h1>
+          </div>
+          <hr>
+          <div class="col-12">
+			<object data="filename.pdf" type="application/pdf">
+			Kõigi pakutavate materjalide hindade saamiseks, <a href="hinnakiri.pdf"> vajuta siia, et avada või faili alla laadida.</a>
+			</object>
+          </div>
+        </div>
+      <hr class="my-4">
+      </div>
+<!-- Форма заявки -->
+  <div class="container">
+   <div class="row">
+	   <div class="col-12">
+		    <form action="mailform/mail.php" method="POST">
+      	<!--<form action="db/connect.php" method="POST">-->
+
+	     <h1 class="display-5 text-center">Hinnapakkumine vorm</h1>
+       <h5 class="display-5 text-center">( Pole veel valmis! )</h5>
+    	 <div class="form-group">
+    	  <label for="">Nimi</label>
+    		<input type="name" class="form-control" id="userName" name="user_name" placeholder="Nimi ja Perekonnanimi" required>
+    	 </div>
+	     <div class="form-group">
+    		<label for="">E-post</label>
+    		<input type="mail" class="form-control" id="UserEmail" name="user_email" placeholder="your@mail.com" required>
+	    </div>
+	    <div class="form-group">
+		   <label for="">Telefoni number</label>
+		   <input type="phone" class="form-control" id="UserPhone" name="user_phone" placeholder="(+372) 56565656" required>
+	    </div>
+	    <div class="form-group">
+		   <label for="">Soovitud materjalid ja kogus</label>
+		   <input type="request" class="form-control" id="UserRequest" name="user_request" placeholder="Materjal #2 / 10m2" required	>
+	    </div>
+      <br>
+	    <button type="submit text-center" class="btn btn-warning text-center">SAADA HINNAPAKKUMIST</button>
+      <br>
+      <br>
+      <br>
+	   </form>
+	  </div>
+   </div>
+ </div>
+<!-- Футер сайта -->
+ <footer class="page-footer font-small yellow">
+         <div class="col-12 social text-center">
+           <a href="https://www.instagram.com/explore/tags/eesti/" target="_blank"><i class="fab fa-instagram"></i></a>
+           <a href="https://www.facebook.com/TallinnaToostushariduskeskus/" target="_blank"><i class="fab fa-facebook"></i></a>
+ 		  <p><i class="fas fa-envelope"></i> your@mail.com
+ 		  <i class="fas fa-phone"></i> 56565656</p>
+ 		  <br>
+         </div>
+         <div class="copyright text-center">
+ 		        © 2019 Copyright: Firmanimi OÜ
+         </div>
+ </footer>
+</body>
+</div>
+</html>

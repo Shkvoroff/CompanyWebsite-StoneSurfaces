@@ -1,0 +1,7 @@
+create table offer (
+id_user int (10) PRIMARY KEY AUTO_INCREMENT,
+user_name varchar(20),
+user_email varchar(50),
+user_phone int(10),
+user_request varchar(50)
+); 

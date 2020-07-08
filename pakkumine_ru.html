@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Arvestustoo</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<!-- Шапка сайта -->
+  <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+        <a href="index_ru.html" class="navbar-brad"><img src="img/logo.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item ">
+              <a href="index_ru.html" class="nav-link">Главная</a>
+            </li>
+            <li class="nav-item">
+              <a href="materjalid_ru.html" class="nav-link">Материалы</a>
+            </li>
+            <li class="nav-item">
+              <a href="firmast_ru.html" class="nav-link">О Фирме</a>
+            </li>
+            <li class="nav-item">
+              <a href="kontakt_ru.html" class="nav-link">Контакты</a>
+            </li>
+            <li class="nav-item">
+              <a href="pakkumine_ru.html" class="nav-link">ЗАПРОСИТЬ ПРЕДЛОЖЕНИЕ</a>
+            </li>
+            <li-lang class="nav-item">
+              <a href="pakkumine.html" class="nav-link">EE</a>
+            </li-lang>
+            <li-lang class="nav-item">
+              <a href="pakkumine_en.html" class="nav-link">EN</a>
+            </li-lang>
+          </ul>
+        </div>
+    </div>
+  </nav>
+  <!-- Блок с фиксированным изображением -->
+    <figure>
+      <div class="fixed_3-wrap">
+        <div id="fixed_3">
+        </div>
+      </div>
+    </figure>
+<!-- Блок с ценовым предложением в .pdf формате -->
+      <div class="container-fluid padding">
+        <div class="row text-center padding">
+          <div class="col-12">
+    	    <br>
+    		<br>
+            <h1 class="display-5 text-center">Прейскурант</h1>
+          </div>
+          <hr>
+          <div class="col-12">
+			<object data="filename.pdf" type="application/pdf">
+			Чтобы получить ифнормацию и цены по всем наши материалам, <a href="hinnakiri_ru.pdf">нажмите тут, чтобы открыть или скачать файл.</a>
+			</object>
+          </div>
+        </div>
+      <hr class="my-4">
+      </div>	
+<!-- Форма заявки -->
+  <div class="container">
+   <div class="row">
+	   <div class="col-12">
+	    <form action="mailform/mail.php" method="POST">
+	     <h1 class="display-5 text-center">Получить Предложение</h1>
+       <h5 class="display-5 text-center">( Форма не доделана! )</h5>
+    	 <div class="form-group">
+    	  <label for="">Имя</label>
+    		<input type="text" class="form-control" id="" name="user_name" placeholder="Имя и Фамилия" required>
+    	 </div>
+	     <div class="form-group">
+    		<label for="">Э-Мейл</label>
+    		<input type="text" class="form-control" id="" name="user_email" placeholder="your@mail.com" required>
+	    </div>
+	    <div class="form-group">
+		   <label for="">Телефон</label>
+		   <input type="text" class="form-control" id="" name="user_phone" placeholder="(+372) 56565656" required>
+	    </div>
+	    <div class="form-group">
+		   <label for="">Выбраный материал и его количество</label>
+		   <input type="text" class="form-control" id="" name="user_request" placeholder="Материал #2 / 10m2" required>
+	    </div>
+      <br>
+	    <button type="submit text-center" class="btn btn-warning text-center">Получить Предложение</button>
+      <br>
+      <br>
+      <br>
+	   </form>
+	  </div>
+   </div>
+ </div>
+<!-- Футер сайта -->
+ <footer class="page-footer font-small yellow">
+         <div class="col-12 social text-center">
+           <a href="https://www.instagram.com/explore/tags/eesti/" target="_blank"><i class="fab fa-instagram"></i></a>
+           <a href="https://www.facebook.com/TallinnaToostushariduskeskus/" target="_blank"><i class="fab fa-facebook"></i></a>
+ 		  <p><i class="fas fa-envelope"></i> your@mail.com
+ 		  <i class="fas fa-phone"></i> 56565656</p>
+ 		  <br>
+         </div>
+         <div class="copyright text-center">
+ 		        © 2019 Copyright: Firmanimi OÜ
+         </div>
+ </footer>
+</body>
+</div>
+</html>
